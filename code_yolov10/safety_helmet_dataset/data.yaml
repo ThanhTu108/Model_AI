@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: D:\Tu\AI\AIO_AI\Object_detect\code_yolov10\safety_helmet_dataset\train\images
+val: D:\Tu\AI\AIO_AI\Object_detect\code_yolov10\safety_helmet_dataset\valid\images
+test: D:\Tu\AI\AIO_AI\Object_detect\code_yolov10\safety_helmet_dataset\test\images
 
 nc: 3
 names: ['head', 'helmet', 'person']
