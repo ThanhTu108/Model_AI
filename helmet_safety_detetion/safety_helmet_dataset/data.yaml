@@ -1,0 +1,13 @@
+train: D:\Tu\AI\AIO_AI\Object_detect\code_yolov10\safety_helmet_dataset\train\images
+val: D:\Tu\AI\AIO_AI\Object_detect\code_yolov10\safety_helmet_dataset\valid\images
+test: D:\Tu\AI\AIO_AI\Object_detect\code_yolov10\safety_helmet_dataset\test\images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: dataperson
+  project: safety-helmet-dataset-uvh1t
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataperson/safety-helmet-dataset-uvh1t/dataset/1
